@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD']   == 'POST'){
 
     $sql  = "INSERT INTO usuarios (name,email) VALUE ('$name', '$email')";
     
-    if($connnn->query($sql) === true){
+    if($conn->query($sql) === true){
         echo " Novo registro criadocom sucesso!";
 
     }else{
@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD']   == 'POST'){
     <input type="email" name= "email" required>
 
     <input type="submit" value = "Adicionar">
-    
+
     </form>
         
     </body>
