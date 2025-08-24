@@ -2,7 +2,7 @@ CREATE DATABASE crud_system;
 
 USE crud_system;
 
-CREATE  TABLE user(
+CREATE  TABLE usuarios(
  id INT AUTO_INCREMENT PRIMARY KEY,
  name  VARCHAR(100) NOT NULL,
  email VARCHAR(150)  NOT NULL UNIQUE,
